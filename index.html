@@ -85,10 +85,10 @@
     function send_mail(arg) {
     var send_mail_arr = {
       ATL1 : `Фио: ${string1.value}
-номер машины/энидэск: ${string2.value}
+Номер машины/энидэск: ${string2.value}
 Начало тех сбоя: ${string3.value}
 Время простоя: ${string4.value}
-краткое описание проблемы: ${string5.value}`
+Краткое описание проблемы: ${string5.value}`
     }
 
       navigator.clipboard.writeText(send_mail_arr[arg])
